@@ -7,8 +7,7 @@ class Car {
     public $brand;
     public $model;
     public $year;
-    public $price;
-    public $user_id;
+    public $price;    public $user_id;
 
     public function __construct($db){ $this->conn = $db; }
 
